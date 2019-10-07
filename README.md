@@ -9,14 +9,14 @@ Ao ser carregado qualquer arquivo no serviço S3, automaticamente a função lam
 ![Lambda 2](http://blog.michaelschmatz.com/images/image-host.png "Funcionamento do projeto, considerar que os uploads são arquivos de texto JSON")
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;*Funcionamento do projeto, considerar que os uploads são arquivos de texto não imagens*
 
-Exemplo de conteúdo de um arquivo de texto (JSON) para upload no S3:
-*{
-&emsp;&emsp;"invoiceNumber": "INV_1234",
-&emsp;&emsp;"customerName": "a name",
-&emsp;&emsp;"totalValue": 1250.00,
-&emsp;&emsp;"productId": 1,
-&emsp;&emsp;"quantity": 3
-}*
+Exemplo de conteúdo de um arquivo de texto (JSON) para upload no S3:  
+*{  
+&emsp;&emsp;"invoiceNumber": "INV_1234",  
+&emsp;&emsp;"customerName": "a name",  
+&emsp;&emsp;"totalValue": 1250.00,  
+&emsp;&emsp;"productId": 1,  
+&emsp;&emsp;"quantity": 3  
+}*  
 
 Adicionalmente, logs são gerados no CloudWatch.
 
